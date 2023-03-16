@@ -12,10 +12,11 @@ public class Program1 {
     }
     int i=0; // while loop
     while(i<s.length()) {
-        System.out.println(temp =s.charAt(i)+ temp);
+        temp =s.charAt(i)+ temp;
         i++;
     }
 
+        System.out.println(temp);
         StringBuilder sb = new StringBuilder(s); // using java function
         sb.reverse();
         System.out.println(sb);
